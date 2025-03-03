@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#D1D1D6">
+
+    <!-- Smartbar (Đưa lên đầu) -->
+    <include layout="@layout/smartbar_layout" />
+
+    <!-- Hàng phím số -->
+    <LinearLayout
+        android:id="@+id/numberRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="@dimen/row_spacing">
+        <!-- Tăng khoảng cách giữa các hàng -->
+        
+        <Button
+            android:id="@+id/button_1"
+            style="@style/KeyboardButtonStyle"
+            android:text="1"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <!-- Các nút 2-9,0 tương tự -->
+        <Button
+            android:id="@+id/button_2"
+            style="@style/KeyboardButtonStyle"
+            android:text="2"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_3"
+            style="@style/KeyboardButtonStyle"
+            android:text="3"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_4"
+            style="@style/KeyboardButtonStyle"
+            android:text="4"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_5"
+            style="@style/KeyboardButtonStyle"
+            android:text="5"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_6"
+            style="@style/KeyboardButtonStyle"
+            android:text="6"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_7"
+            style="@style/KeyboardButtonStyle"
+            android:text="7"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_8"
+            style="@style/KeyboardButtonStyle"
+            android:text="8"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_9"
+            style="@style/KeyboardButtonStyle"
+            android:text="9"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_0"
+            style="@style/KeyboardButtonStyle"
+            android:text="0"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+    </LinearLayout>
+
+    <!-- Hàng chữ 1: QWERTYUIOP -->
+    <LinearLayout
+        android:id="@+id/letterRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="@dimen/row_spacing">
+        <!-- Tăng khoảng cách giữa các hàng -->
+        
+        <Button
+            android:id="@+id/button_q"
+            style="@style/KeyboardButtonStyle"
+            android:text="q"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <!-- Các nút w, e, r, t, y, u, i, o, p -->
+        <Button
+            android:id="@+id/button_w"
+            style="@style/KeyboardButtonStyle"
+            android:text="w"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_e"
+            style="@style/KeyboardButtonStyle"
+            android:text="e"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_r"
+            style="@style/KeyboardButtonStyle"
+            android:text="r"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_t"
+            style="@style/KeyboardButtonStyle"
+            android:text="t"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_y"
+            style="@style/KeyboardButtonStyle"
+            android:text="y"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_u"
+            style="@style/KeyboardButtonStyle"
+            android:text="u"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_i"
+            style="@style/KeyboardButtonStyle"
+            android:text="i"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_o"
+            style="@style/KeyboardButtonStyle"
+            android:text="o"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_p"
+            style="@style/KeyboardButtonStyle"
+            android:text="p"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+    </LinearLayout>
+
+    <!-- Hàng chữ 2: ASDFGHJKL -->
+    <LinearLayout
+        android:id="@+id/letterRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="@dimen/row_spacing">
+        <!-- Tăng khoảng cách giữa các hàng -->
+        
+        <Button
+            android:id="@+id/button_a"
+            style="@style/KeyboardButtonStyle"
+            android:text="a"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_s"
+            style="@style/KeyboardButtonStyle"
+            android:text="s"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_d"
+            style="@style/KeyboardButtonStyle"
+            android:text="d"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_f"
+            style="@style/KeyboardButtonStyle"
+            android:text="f"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_g"
+            style="@style/KeyboardButtonStyle"
+            android:text="g"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_h"
+            style="@style/KeyboardButtonStyle"
+            android:text="h"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_j"
+            style="@style/KeyboardButtonStyle"
+            android:text="j"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_k"
+            style="@style/KeyboardButtonStyle"
+            android:text="k"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_l"
+            style="@style/KeyboardButtonStyle"
+            android:text="l"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+    </LinearLayout>
+
+    <!-- Hàng chữ 3 (Shift, Z X C V B N M, Backspace) -->
+    <LinearLayout
+        android:id="@+id/letterRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/row_spacing">
+        
+        <Button
+            android:id="@+id/button_shift"
+            style="@style/KeyboardButtonStyle"
+            android:text="⇧"
+            android:layout_width="@dimen/xoa_key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_z"
+            style="@style/KeyboardButtonStyle"
+            android:text="z"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_x"
+            style="@style/KeyboardButtonStyle"
+            android:text="x"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_c"
+            style="@style/KeyboardButtonStyle"
+            android:text="c"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_v"
+            style="@style/KeyboardButtonStyle"
+            android:text="v"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_b"
+            style="@style/KeyboardButtonStyle"
+            android:text="b"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_n"
+            style="@style/KeyboardButtonStyle"
+            android:text="n"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_m"
+            style="@style/KeyboardButtonStyle"
+            android:text="m"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_backspace"
+            style="@style/KeyboardButtonStyle"
+            android:text="⌫"
+            android:layout_width="@dimen/xoa_key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+    </LinearLayout>
+
+    <!-- Hàng phím dưới cùng (123, ,, Space, ., Enter) -->
+    <LinearLayout
+        android:id="@+id/bottomRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/row_spacing">
+        
+        <Button
+            android:id="@+id/button_symbols"
+            style="@style/KeyboardButtonStyle"
+            android:text="123"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_comma"
+            style="@style/KeyboardButtonStyle"
+            android:text=","
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_space"
+            style="@style/KeyboardButtonStyle"
+            android:text="Space"
+            android:layout_width="@dimen/space_key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_period"
+            style="@style/KeyboardButtonStyle"
+            android:text="."
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+        <Button
+            android:id="@+id/button_enter"
+            style="@style/KeyboardButtonStyle"
+            android:text="⏎"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_margin="@dimen/key_margin" />
+    </LinearLayout>
+</LinearLayout>

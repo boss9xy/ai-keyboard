@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Giữ nguyên style cho KeyboardRow -->
+    <style name="KeyboardRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+
+    <!-- Style cho các nút bấm thông thường (bao gồm cả số và chữ) -->
+    <style name="KeyboardButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item> <!-- Quan trọng cho layout_weight -->
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item> <!-- Chia đều không gian -->
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/keyboard_button_background</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Style cho nút Shift và Backspace (rộng hơn) -->
+    <style name="KeyboardButtonWide" parent="KeyboardButtonStyle">
+        <item name="android:layout_weight">1.5</item> <!-- Rộng hơn 1.5 lần -->
+    </style>
+
+    <!-- Style cho nút Space (rộng nhất) -->
+    <style name="KeyboardButtonExtraWide" parent="KeyboardButtonStyle">
+        <item name="android:layout_weight">3</item> <!-- Rộng hơn 3 lần -->
+    </style>
+
+    <!-- Style cho các nút AI (nếu bạn muốn style riêng) -->
+    <style name="AIButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- Style cho các nút trên Smartbar -->
+    <style name="SmartBarButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Style cho ứng dụng (giữ nguyên) -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Kích thước phím cố định cho tất cả các hàng -->
+    <dimen name="key_width">50dp</dimen>
+    <dimen name="key_height">45dp</dimen>
+    <!-- Phím Space có thể lớn hơn -->
+    <dimen name="space_key_width">108dp</dimen>
+    <!-- Khoảng cách giữa các nút -->
+    <dimen name="key_margin">1.3dp</dimen>
+    <!-- Tăng khoảng cách giữa các hàng -->
+    <dimen name="row_spacing">3dp</dimen>
+    <!-- Phím xoa có thể lớn hơn -->
+    <dimen name="xoa_key_width">68dp</dimen>
+</resources>
