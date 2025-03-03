@@ -1,8 +1,9 @@
 # AIKeyboard Documentation
 
 ## Overview
-AIKeyboard is an Android custom keyboard application that provides a standard keyboard interface with enhanced features including Vietnamese language support, AI-powered text generation and translation, speech-to-text, text-to-speech, and a calculator function.
 
+AIKeyboard is an Android custom keyboard application that provides a standard keyboard interface with enhanced features including Vietnamese language support, AI-powered text generation and translation, speech-to-text, text-to-speech, and a calculator function.
+```
 AIKeyboard/
 ├── .gradle/
 ├── .idea/
@@ -51,6 +52,7 @@ AIKeyboard/
 
 ## Keyboard Layout Structure
 ```
+```
 AIKeyboard
 ├── Smartbar (Toggle using ⚡ button)
 │   ├── Input/Language Tools
@@ -64,6 +66,8 @@ AIKeyboard
 │   └── Bottom Row (Symbols, Space, Enter)
 └── Specialty Keyboards
     └── Calculator Keyboard
+```
+
 ```
 
 ## Basic Keys Functionality
