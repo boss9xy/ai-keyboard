@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#D1D1D6">
+
+    <!-- Smartbar (Đưa lên đầu) -->
+    <include layout="@layout/smartbar_layout" />
+
+    <!-- This is where the dynamic keyboard rows will be added -->
+    <LinearLayout
+        android:id="@+id/keyboardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Buttons will be added here dynamically -->
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#E0E0E0"
+    android:padding="0dp"
+    android:gravity="center_vertical">
+
+    <!-- SmartBar Toggle Button (Đặt bên trái) -->
+    <Button
+        android:id="@+id/btnSmartbarToggle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="⚡"
+        android:textSize="20sp"
+        style="@style/SmartBarButton" />
+
+    <!-- Horizontal ScrollView for SmartBar Content -->
+    <HorizontalScrollView
+        android:id="@+id/smartbarScrollView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:gravity="center_vertical">
+
+            <!-- Quả cầu Button for switching keyboards -->
+            <Button
+                android:id="@+id/btnQuaCau"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⌨️"
+                android:drawablePadding="5dp"
+                android:textAllCaps="false"/>
+
+            <!-- Microphone Button -->
+            <Button
+                android:id="@+id/btnMic"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎤"
+                android:textAllCaps="false"/>
+
+            <!-- Tính Toán Button -->
+            <Button
+                android:id="@+id/btnTinhToan"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tính Toán"
+                android:textAllCaps="false" />
+
+            <!-- Paste & Read Button -->
+            <Button
+                android:id="@+id/btnPasteAndRead"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đọc clipboard"
+                 />
+
+            <!-- Stop TTS Button -->
+            <Button
+                android:id="@+id/btnStopTts"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dừng đọc"
+               />
+
+            <!-- Language Button -->
+            <Button
+                android:id="@+id/languageButton"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VN" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Spinner
+                    android:id="@+id/languageSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:spinnerMode="dropdown"/>
+
+                <Spinner
+                    android:id="@+id/gptModelSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:spinnerMode="dropdown"/>
+
+            </LinearLayout>
+            <!-- GPT Ask Button -->
+            <Button
+                android:id="@+id/gptAskButton"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPT Ask" />
+
+            <!-- GPT Translate Button -->
+            <Button
+                android:id="@+id/gptTranslateButton"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPT Trans" />
+
+            <!-- Ask AI Button -->
+            <Button
+                android:id="@+id/askButton"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depsek Ask" />
+
+            <!-- Translate Button -->
+            <Button
+                android:id="@+id/translateButton"
+                style="@style/SmartBarButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depsek Trans" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Spinner
+                    android:id="@+id/clipboardHistorySpinner"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_background"
+                    android:spinnerMode="dropdown"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

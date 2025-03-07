@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="key_width">50dp</dimen>
+    <dimen name="key_height">45dp</dimen>
+    <dimen name="space_key_width">108dp</dimen>
+    <dimen name="key_margin">1.3dp</dimen>
+    <dimen name="row_spacing">3dp</dimen>
+    <dimen name="xoa_key_width">68dp</dimen>
+    <dimen name="key_margin_row2_side">20dp</dimen>
+</resources>

@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.aikeyboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.READ_CLIPBOARD" />
+12-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:5:5-73
+12-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:5:22-70
+13    <uses-permission android:name="android.permission.WRITE_CLIPBOARD" />
+13-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:6:5-74
+13-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:6:22-71
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:7:5-81
+14-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:8:5-80
+15-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:8:22-77
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:9:5-71
+16-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:9:22-68
+17
+18    <application
+18-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:11:5-45:19
+19        android:allowBackup="true"
+19-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:12:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\Acer\.gradle\caches\transforms-3\7fb8feb40997d6adc8bb4db81ff9c798\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:13:9-43
+23        android:label="AI Keyboard"
+23-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:14:9-36
+24        android:supportsRtl="true"
+24-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.AIKeyboard" >
+25-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:16:9-48
+26        <activity
+26-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:18:9-26:20
+27            android:name="com.example.aikeyboard.WelcomeActivity"
+27-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:19:13-44
+28            android:exported="true"
+28-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:20:13-36
+29            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+29-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:21:13-71
+30            <intent-filter>
+30-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:22:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:23:17-69
+31-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:23:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:28:9-30:38
+37            android:name="com.example.aikeyboard.SettingsActivity"
+37-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:29:13-45
+38            android:exported="true" />
+38-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:30:13-36
+39
+40        <service
+40-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:32:9-44:19
+41            android:name="com.example.aikeyboard.AIKeyboardService"
+41-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:33:13-46
+42            android:exported="true"
+42-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:37:13-36
+43            android:label="AI Keyboard"
+43-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:34:13-40
+44            android:permission="android.permission.BIND_INPUT_METHOD"
+44-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:35:13-70
+45            android:windowSoftInputMode="adjustResize" >
+45-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:36:13-55
+46            <intent-filter>
+46-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:38:13-40:29
+47                <action android:name="android.view.InputMethod" />
+47-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:39:17-67
+47-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:39:25-64
+48            </intent-filter>
+49
+50            <meta-data
+50-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:41:13-43:50
+51                android:name="android.view.im"
+51-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:42:17-47
+52                android:resource="@xml/method" />
+52-->C:\Users\Acer\.windsurf\AIKeyboard\app\src\main\AndroidManifest.xml:43:17-47
+53        </service>
+54
+55        <provider
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+56            android:name="androidx.startup.InitializationProvider"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+57            android:authorities="com.example.aikeyboard.androidx-startup"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+58            android:exported="false" >
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+59            <meta-data
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+61                android:value="androidx.startup" />
+61-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Acer\.gradle\caches\transforms-3\4565e90aeb698331c36e15cf79604068\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+62            <meta-data
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\dc0727bec039413638d6c39a506fef5d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\dc0727bec039413638d6c39a506fef5d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+64                android:value="androidx.startup" />
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Acer\.gradle\caches\transforms-3\dc0727bec039413638d6c39a506fef5d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+65        </provider>
+66    </application>
+67
+68</manifest>

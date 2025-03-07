@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D1D1D6">
+
+    <FrameLayout
+        android:id="@+id/numberRowContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/row_spacing">
+        <LinearLayout
+            android:id="@+id/numberRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp">
+            <Button
+                android:id="@+id/button_1"
+                style="@style/KeyboardButtonStyle"
+                android:text="1" />
+            <Button
+                android:id="@+id/button_2"
+                style="@style/KeyboardButtonStyle"
+                android:text="2" />
+            <Button
+                android:id="@+id/button_3"
+                style="@style/KeyboardButtonStyle"
+                android:text="3" />
+            <Button
+                android:id="@+id/button_4"
+                style="@style/KeyboardButtonStyle"
+                android:text="4" />
+            <Button
+                android:id="@+id/button_5"
+                style="@style/KeyboardButtonStyle"
+                android:text="5" />
+            <Button
+                android:id="@+id/button_6"
+                style="@style/KeyboardButtonStyle"
+                android:text="6" />
+            <Button
+                android:id="@+id/button_7"
+                style="@style/KeyboardButtonStyle"
+                android:text="7" />
+            <Button
+                android:id="@+id/button_8"
+                style="@style/KeyboardButtonStyle"
+                android:text="8" />
+            <Button
+                android:id="@+id/button_9"
+                style="@style/KeyboardButtonStyle"
+                android:text="9" />
+            <Button
+                android:id="@+id/button_0"
+                style="@style/KeyboardButtonStyle"
+                android:text="0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

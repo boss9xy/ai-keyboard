@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">AI Keyboard</string>
+    <string-array name="gpt_models">
+        <item>gpt-3.5-turbo-1106</item>
+        <item>gpt-4o-2024-11-20</item>
+        <item>gpt-4o-mini-2024-07-18</item>
+        <item>o3-mini-2025-01-31</item>
+        <item>o1-2024-12-17</item>
+        <item>o1-preview-2024-09-12</item>
+    </string-array>
+    <string name="welcome_title">Welcome to AI Keyboard</string>
+    <string name="settings">Settings</string>
+    <string name="deepseek_api_key_hint">Enter your DeepSeek API key</string>
+    <string name="gpt_api_key_hint">Enter your GPT API key</string>
+    <string name="save_api_keys">Save API Keys</string>
+    <string name="enable_keyboard">Enable Keyboard</string>
+    <string name="select_keyboard">Select Keyboard</string>
+    <string name="api_settings">API Settings</string>
+    <string name="deepseek_api_key">DeepSeek API Key</string>
+    <string name="gpt_api_key">GPT API Key</string>
+    <string name="keyboard_settings">Keyboard Settings</string>
+    <string name="enter_at_least_one_api_key">Please enter at least one API key</string>
+    <string name="settings_saved_successfully">Settings saved successfully</string>
+    <string name="storage_permission_denied">Storage permission is required for logging</string>
+    <string name="microphone_permission_denied">Microphone permission denied. Please enable it in settings.</string>
+    <string name="microphone_permission_granted">Microphone permission granted</string>
+
+    <!-- Smartbar -->
+    <string name="smartbar_toggle">⚡</string>
+    <string name="language_vn">VN</string>
+    <string name="language_en">EN</string>
+    <string name="paste_and_read">Read clipboard</string>
+    <string name="stop_tts">Stop reading</string>
+    <string name="translate">Translate</string>
+    <string name="ask">Ask</string>
+    <string name="gpt_ask">GPT Ask</string>
+    <string name="gpt_translate">GPT Trans</string>
+    <string name="deepseek_ask">Deepseek Ask</string>
+    <string name="deepseek_translate">Deepseek Trans</string>
+    <string name="switch_keyboard">⌨️</string>
+    <string name="mic">🎤</string>
+    <string name="calculator">Calculate</string>
+    <string name="clear_history">Clear History</string>
+    <string name="no_text_to_translate">No text to translate</string>
+    <string name="enter_question_or_select_text">Please enter a question or select text.</string>
+    <string name="listening">Listening…</string>
+    <string name="stopped_listening">Stopped listening</string>
+    <string name="speech_recognition_error">Speech recognition error: %s</string>
+    <string name="audio_recording_error">Audio recording error</string>
+    <string name="client_side_error">Client side error</string>
+    <string name="insufficient_permissions">Insufficient permissions</string>
+    <string name="network_error">Network error</string>
+    <string name="network_timeout">Network timeout</string>
+    <string name="no_recognition_result_matched">No recognition result matched</string>
+    <string name="recognizer_service_busy">RecognitionService busy</string>
+    <string name="server_sends_error_status">Server sends error status</string>
+    <string name="no_speech_input">No speech input</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="added_to_clipboard_history">Added to clipboard history</string>
+    <string name="clipboard_history_cleared">Clipboard history cleared</string>
+    <string name="tts_language_not_supported">TTS language is not supported.</string>
+    <string name="tts_initialization_failed">TTS initialization failed.</string>
+    <string name="calculator_back">Back</string>
+    <string name="calculator_insert">Insert</string>
+    <string name="calculator_clear">C</string>
+    <string name="calculator_error">Error</string>
+    <string name="division_by_zero">Division by zero</string>
+    <string name="invalid_operator">Invalid operator</string>
+    <string name="invalid_expression">Invalid expression</string>
+    <string name="space">Space</string>
+
+    <!-- Key labels (có thể không cần thiết nếu đã tạo nút động) -->
+    <string name="key_label_shift">⇧</string> <!-- ⇧ -->
+    <string name="key_label_backspace">⌫</string> <!-- ⌫ -->
+    <string name="key_label_enter">⏎</string> <!-- ⏎ -->
+    <string name="key_label_symbols">123</string>
+    <string name="key_label_abc">ABC</string>
+
+</resources>
