@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smartbarScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/keyboard_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dp">
+
+        <ImageButton
+            android:id="@+id/btnSwitchKeyboard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_globe"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:tint="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/btnPasteAndRead"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Read clipboard"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/btnStopTts"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Stop TTS"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <ImageButton
+            android:id="@+id/btnMic"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_mic"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:tint="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/btnTinhToan"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Calculate"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/languageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="VN"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Spinner
+            android:id="@+id/languageSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:popupBackground="@color/key_special_background"/>
+
+        <Button
+            android:id="@+id/gptAskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="GPT Ask"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/assistantsGptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Assistants GPT"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/stopGenerationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Stop Gen"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"
+            android:visibility="gone"/> <!-- Ẩn nút ban đầu -->
+
+        <Button
+            android:id="@+id/gptTranslateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="GPT Trans"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/translateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="DepSek Trans"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <!-- Nút "Continue Generating" -->
+        <Button
+            android:id="@+id/gptContinueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="GPT Continue"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"
+            android:visibility="gone"/> <!-- Ẩn nút ban đầu -->
+
+        <Button
+            android:id="@+id/gptSuggestButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="GPT Suggest"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+        <Button
+            android:id="@+id/deepseekSuggestButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="DeepSeek Suggest"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/> <!-- Ẩn nút ban đầu -->
+
+        <Button
+            android:id="@+id/askButton"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="DepSek Convert 𝒃𝒐𝒍𝒅 𝒊𝒕𝒂𝒍𝒊𝒄 font style"
+            android:textSize="14sp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"/>
+
+
+        <Spinner
+            android:id="@+id/gptModelSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"
+            android:popupBackground="@color/key_special_background"/>
+
+        <Spinner
+            android:id="@+id/clipboardHistorySpinner"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="4dp"
+            android:backgroundTint="@color/key_special_background"
+            android:textColor="@color/key_text_special"
+            android:popupBackground="@color/key_special_background"/>
+
+    </LinearLayout>
+</HorizontalScrollView>

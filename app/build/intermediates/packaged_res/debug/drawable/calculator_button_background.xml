@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Khi bấm -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#1A5F1C" /> <!-- Màu nhấn đậm hơn -->
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Trạng thái bình thường -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/key_normal_background" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- app/src/main/res/layout/keyboard_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/smartbar"
+        layout="@layout/smartbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Quan trọng: Đặt màu chữ mặc định cho tất cả các phím -->
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/keyboard_background"
+        android:keyTextColor="@color/key_text_normal"
+        android:keyBackground="@drawable/key_background"
+        android:theme="@style/KeyboardTheme"
+        android:keyPreviewLayout="@layout/custom_key_popup"
+        android:keyPreviewOffset="0dp"
+        android:paddingBottom="10dp"
+        android:keyTextSize="22sp"
+        android:labelTextSize="18sp"
+        android:shadowColor="#00000000"
+        android:shadowRadius="0.0"/>
+
+</LinearLayout>

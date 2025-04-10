@@ -1,0 +1,162 @@
+[
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_smartbar_layout.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\smartbar_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_key_preview_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\key_preview_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_key_special_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\key_special_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_number_keyboard.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\number_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_clipboard_history.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\dialog_clipboard_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_keyboard_normal.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\keyboard_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_method.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\method.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_key_background_selector.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\key_background_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_keyboard_symbols_1.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\keyboard_symbols_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_key_popup.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\custom_key_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_keyboard_key_preview.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_key_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_webview.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_mic.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\ic_mic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_calculator_keyboard.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\calculator_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\anim_popup_exit.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\anim\\popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\anim_popup_enter.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\anim\\popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_key_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\key_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\anim\\slide_in_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_keyboard_view.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculator_button_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\calculator_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_keyboard_button_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\keyboard_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\layout_keyboard_layout.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_mic_active.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\ic_mic_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_keyboard_button_active_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\keyboard_button_active_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_keyboard_symbols_2.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\keyboard_symbols_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_popup_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\popup_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_key_popup_background.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\key_popup_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_globe.xml.flat",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\drawable\\ic_globe.xml"
+    }
+]

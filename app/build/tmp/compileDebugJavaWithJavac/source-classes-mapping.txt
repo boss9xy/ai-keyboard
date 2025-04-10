@@ -1,0 +1,24 @@
+com/example/aikeyboard/databinding/DialogClipboardHistoryBinding.java
+ com.example.aikeyboard.databinding.DialogClipboardHistoryBinding
+com/example/aikeyboard/databinding/KeyboardLayoutBinding.java
+ com.example.aikeyboard.databinding.KeyboardLayoutBinding
+com/example/aikeyboard/databinding/SmartbarLayoutBinding.java
+ com.example.aikeyboard.databinding.SmartbarLayoutBinding
+com/example/aikeyboard/databinding/ActivityWelcomeBinding.java
+ com.example.aikeyboard.databinding.ActivityWelcomeBinding
+com/example/aikeyboard/databinding/KeyboardViewBinding.java
+ com.example.aikeyboard.databinding.KeyboardViewBinding
+com/example/aikeyboard/BuildConfig.java
+ com.example.aikeyboard.BuildConfig
+com/example/aikeyboard/databinding/KeyboardKeyPreviewBinding.java
+ com.example.aikeyboard.databinding.KeyboardKeyPreviewBinding
+com/example/aikeyboard/databinding/ActivityWebviewBinding.java
+ com.example.aikeyboard.databinding.ActivityWebviewBinding
+com/example/aikeyboard/databinding/NumberKeyboardBinding.java
+ com.example.aikeyboard.databinding.NumberKeyboardBinding
+com/example/aikeyboard/databinding/ActivitySettingsBinding.java
+ com.example.aikeyboard.databinding.ActivitySettingsBinding
+com/example/aikeyboard/databinding/CustomKeyPopupBinding.java
+ com.example.aikeyboard.databinding.CustomKeyPopupBinding
+com/example/aikeyboard/databinding/CalculatorKeyboardBinding.java
+ com.example.aikeyboard.databinding.CalculatorKeyboardBinding

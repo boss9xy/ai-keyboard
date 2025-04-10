@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\smartbar_layout.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\smartbar_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keyboard_view.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keyboard_key_preview.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_key_preview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\number_keyboard.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\number_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_welcome.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_clipboard_history.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\dialog_clipboard_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\calculator_keyboard.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\calculator_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_key_popup.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\custom_key_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\keyboard_layout.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\keyboard_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_webview.xml",
+        "source": "C:\\Users\\Acer\\.windsurf\\AIKeyboard\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    }
+]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for KeyboardView (applies to all keys) -->
+    <style name="MyKeyboardViewStyle" parent="@android:style/Widget">
+        <item name="android:background">@color/keyboard_background</item>
+        <item name="android:keyBackground">@drawable/key_background</item>
+        <item name="android:keyTextColor">@color/key_text_normal</item>
+        <item name="android:keyPreviewLayout">@layout/keyboard_key_preview</item>
+        <item name="android:keyPreviewOffset">-5dp</item>
+        <item name="android:keyPreviewHeight">@dimen/key_preview_height</item>
+        <item name="android:popupAnimationStyle">@null</item>
+        <item name="android:animationDuration">0</item>
+    </style>
+
+    <!-- Style for buttons on the Smartbar (keep as is) -->
+    <style name="SmartBarButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">4dp</item>
+    </style>
+    <style name="NumberButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">18sp</item> <!-- Or your desired size -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Black text -->
+        <item name="android:background">@drawable/rounded_button</item>
+    <!-- Add other attributes as needed -->
+</style>
+
+    <!-- Style for the application (keep as is) -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+
+    <style name="KeyboardTheme">
+        <item name="android:keyTextColor">@color/key_text_normal</item>
+        <item name="android:keyBackground">@drawable/key_background</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:background">@drawable/calculator_button_background</item>
+        <item name="android:textColor">@color/key_text_normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+</resources>
